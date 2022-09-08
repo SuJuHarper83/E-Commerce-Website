@@ -6,9 +6,26 @@
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+}
+
+.home {
+background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+background-size: cover;
+height: 500px;
+color: white;
+}
+
+.product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70px;
 }
 
 .product_image {
@@ -21,9 +38,15 @@ html {
     border: 2px solid black
 }
 
-.product_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 65px;
-    row-gap: 70px;
+.add_to_cart_button {
+    background-color: #BF7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.learn_more_link {
+    background-color: white;
+    color: #BF7631;
+    text-decoration: underline #BF7631;
 }
