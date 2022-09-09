@@ -9,49 +9,28 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a class="header_links" href="@home">HOME</a></li>
-                <li><a class="header_links" href="@products">PRODUCTS</a></li>
-                <li><a class="header_links" href="@About">ABOUT</a></li>
-                <li><a class="header_links" href="@Contact">CONTACT</a></li>
-            </ul>
-        </nav>
-        <div>
-            <h3>CARA <img src="assets/icons8-pottery-96.png"> CARA</h3>
-        </div>
-        <div>
-            <input type="text" id="search" name="search" value="">
-            <span><strong>CART (0)</strong></span>
+        <div class="header_container">
+            <div class="header_nav_links">
+                <nav>
+                    <ul>
+                        <li><a class="header_links" href="@home">HOME</a></li>
+                        <li><a class="header_links" href="@products">PRODUCTS</a></li>
+                        <li><a class="header_links" href="@About">ABOUT</a></li>
+                        <li><a class="header_links" href="@Contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header_brand">
+                <h3>CARA<img src="assets/icons8-pottery-96.png">CARA</h3>
+            </div>
+            <div class="header_search">
+                <input type="text" id="search" name="search" value="">
+                <span><a class="search_bar" href="@cart"> CART (0)</a></span>
+            </div>
         </div>
         <hr>
     </header>
     <main>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <br>
         <br>
         <section class="home" id="home">
@@ -65,53 +44,38 @@
                 <strong>GROUND UP</strong>
             </div>
         </section>
-        <section class="about" id="about">
-          <h2>ABOUT US</h2>
+        <section id="about">
+          <h2 class="section_title">ABOUT US</h2>
           <hr class="section_hr">
           <br>
           <p>
             <img class="image_one" src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="cylinder glazed vase">
-            <p>
+            <p class="about">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
             dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-        </p>
-        <br>
-        <p>
+            <p>
             <img class="image_two" src="assets/Vase_Dame_2048x2048.jpg" alt="vase with a dame flower">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
             dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <br>
             <br>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-                dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                aliquip ex ea commodo consequat.   
+            </p>
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        </section>
         <br>
         <br>
         <section id="products">
-            <h2>OUR PRODUCTS</h2>
+            <h2 class="section_title">OUR PRODUCTS</h2>
             <hr class="section_hr">
             <br>
             <br>
@@ -280,6 +244,50 @@
                         <a class="learn_more_link" href="bowlproducts.html">LEARN MORE</a>
                         <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section_title">CONTACT US</h2>
+            <hr class="section_hr">
+                <br>
+                <br>
+                <h3 class="contact_title">EMAIL</h3>
+                <form class="form_one"><input type="text" id="email" name="email" value="" style="width: 600px; height: 20px"></form>
+                <br>
+                <h3 class="contact_title">MESSAGE</h3>
+                <form class="form_two"><input type="text" id="message" name="message" value="" style="width: 600px; height: 200px"></form>
+                <br>
+                <span><button class="send_button" type="button">SEND</button></span>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="footer">
+            <div class="footer_container">
+                <div class="footer_icons">
+                    <nav>
+                        <ul>
+                            <li><img class="footer_icons" src="assets/icons8-youtube-96.png" alt="Youtube logo"></li>
+                            <li><img class="footer_icons" src="assets/icons8-facebook-96 (1).png" alt="Facebook logo"></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_brand">
+                    <h3>CARA<img src="assets/icons8-pottery-96 (1).png">CARA</h3>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><img class="footer_icons_right" src="assets/icons8-twitter-96.png" alt="Twitter Logo"></li>
+                            <li><img class="footer_icons_right" src="assets/icons8-instagram-96.png" alt="Instagram Logo"></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <p class="footer_one">Lorem ipsum dolor sit amet, consectetur adipiscing elit                     Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="footer_three">(C) copywrite 2015-2020</p>
                 </div>
             </div>
         </section>
