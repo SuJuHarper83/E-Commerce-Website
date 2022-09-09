@@ -43,44 +43,41 @@ nav li {
 
 .header_container {
     display: grid;
-    padding-left: 60px;
-    padding-right: 60px;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 10px;
-    line-height: 0;
-}
-
-.header_nav_links {
-    text-align: left;
+    grid-template-columns: 400px 400px 400px;
+    height: 35px;
+    margin-block-start: none;
+    margin-block-end: none;
+    justify-content: space-evenly;
 }
 
 .header_links {
     color: black;
     text-decoration: none;
-    font-size: medium;
+    font-size: 15px;
 }
 
 .header_brand {
     text-align: center;
-    font-size: x-large;
+    font-size: 20px;
     letter-spacing: 7px;
+    padding-bottom: 7px;
 }
 
 header img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 .header_search {
-    text-align: right;
-    font-size: medium;
+    font-size: 15px;
+    padding-top: 7px;
+    text-align: end;
+    padding-right: 31px;
 }
 
 .search_bar {
     background-image: url(assets/1200px-Google_Magnifying_Glass.svg.png);
     background-repeat: no-repeat;
-    padding-left: 10px;
     height: 7px;
     width: 7px;
     text-decoration: none;
@@ -90,6 +87,11 @@ header img {
 header hr {
     width: 90%;
     border: 2px solid black;
+}
+
+.cara_cara_wrapper {
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .section_hr {
@@ -132,17 +134,27 @@ header hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: small;
-    column-gap: 160px;
+    column-gap: 163px;
     row-gap: 70px;
+}
+
+.product_name {
+    font-size: 17px;
+}
+
+.price_list {
+    font-size: 17px;
+    float: right;
 }
 
 .product_image {
     width: 300px;
     height: 265px;
+    border: 1px solid black;
 }
 
 .hr_product {
-    width: 40%;
+    width: 50%;
     border: 2px solid black;
     float: left;
 }
@@ -187,22 +199,87 @@ header hr {
 .footer_container {
     display: grid;
     background-color: #BF7631;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 225px 250px 225px;
+    height: 70px;
     width: 100%;
-    justify-items: center;
+    justify-content: center;
+}
+
+.footer_icons_left {
+    height: 60px;
+    width: 60px;
 }
 
 .footer_icons_right {
-    float: right;
-    padding-right: 40px;
+    height: 60px;
+    width: 60px;
 }
 
 .footer_brand {
     text-align: center;
-    font-size: x-large;
+    font-size: 20px;
+    letter-spacing: 7px;
+    padding-bottom: 7px;
 }
 
-footer img {
+.cara_cara_footer {
+    height: 50px;
+    width: 50px;
+}
+
+.footer_text_container {
+    display: grid;
+    background-color: #BF7631;
+    grid-template-columns: 191px 300px 300px 191px;
     height: 30px;
-    width: 30px;
+    width: 100%;
+    font-size: 10px;
+    justify-content: center;
+    text-align: end;
+}
+
+.text_one {
+    text-align: start;
+}
+
+.text_two {
+    text-align: end;
+}
+
+.text_three {
+    text-align: end;
+}
+
+.mundo_bowl_image {
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    float: right;
+}
+
+.bowl_price {
+    float: right;
+    padding-right: 23px;
+    font-size: 20px;
+}
+
+.bowl_cart {
+    background-color: #BF7631;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    float: right;
+}
+
+.p_1 {
+    padding-right: 500px;
+}
+
+.p_2 {
+    padding-right: 500px;
+}
+
+.p_3 {
+    padding-right: 500px;
 }
